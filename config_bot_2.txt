@@ -14,10 +14,12 @@
 "token_info": ["Current token of your bot is: ", "", "", "", ""],
 "Back": ["Back to Menu", "", "", "", ""],
 "Change": ["Change", "", "", "", ""],
-"Send_BNB_to_the_adress": ["Send BNB to the adress: 1234567890", "", "", "", "", ""],
+"Send_BNB_to_the_adress": ["Send BNB to the adress: 0x969171281064b3ca293de00ee3d26de12758dce9  ( BEP20 BSC)", "", "", "", "", ""],
 "I_sent_BNB": ["I've sent BNB", "", "", "", ""],
 "Enter_trans": ["Enter the transaction number:", "", "", "", ""],
 "Enter_wallet": ["Enter the wallet, from wich money were spent:", "", "", "", "", ""],
 "Tr_ok": ["Congratulations! Your transaction has been approved!", "", "", "", ""],
-"Tr_error": ["Transaction approving Error. Try again please.", "", "", "", ""]
+"Tr_error": ["Transaction approving Error. Try again please.", "", "", "", ""],
+"error_trans": ["You entered an invalid transaction value. Please try again.", "", "", "", ""],
+"error_wallet": ["You entered an invalid wallet value. Please try again.", "", "", "", ""]
 }

@@ -1,4 +1,4 @@
-from markups import send_languages_markup, main_menu, create_a_bot_stage_1_btn, help_mc, token_info_mc
+from markups import send_languages_markup, main_menu, create_a_bot_stage_1_btn, token_info_mc
 from database_editing import get_lang, registration_user_in_db, read_records_from_db, change_user_param_in_db
 from markups import pay_first_mc, back
 from database_editing import add_record_to_db
@@ -84,7 +84,7 @@ def create_a_bot_stage_info(bot, callback, data, from_what):
 def help_stage(bot, callback, data):
     lang_idx = get_lang(callback.from_user.id, data)
     answer = data['help_text'][lang_idx]
-    markup = help_mc(data, lang_idx)
+    markup = back(data, lang_idx)
     answer_edit_message(bot, callback, answer, markup)
 
 
@@ -95,10 +95,13 @@ def pay_first_stage(bot, callback, data):
     answer_edit_message(bot, callback, answer, markup)
 
 
-def pay_second_stage(bot, callback, data):
+def pay_second_stage(bot, callback, data, rz):
     lang_idx = get_lang(callback.from_user.id, data)
     answer = data['Enter_trans'][lang_idx]
-    bot.send_message(callback.message.chat.id, answer)
+    if rz == 2:
+        bot.send_message(callback.chat.id, answer)
+    else:
+        bot.send_message(callback.message.chat.id, answer)
     change_user_param_in_db(callback.from_user.id, 'editing', 'last_trans')
 
 
