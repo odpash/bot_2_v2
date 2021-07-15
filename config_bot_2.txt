@@ -1,0 +1,23 @@
+{
+"lang": ["English 🇬🇧", "فارسی 🇮🇷", "हिंदी 🇮🇳", "中國人 🇨🇳", "Español 🇪🇸"],
+"Pay": ["💵 Pay", "", "", "", ""],
+"Help": ["🆘 Help", "", "", "", ""],
+"Create_a_bot": ["⚙️ Create a bot", "", "", "", ""],
+"start_info": ["Welcome to the BOT_NAME bot!\nWe have just opened, so at the moment only English is available.\nPlease, choose language: ", "", "", "", ""],
+"only_eng": ["Sorry, currently only English is available. Please, try again.", "Sorry, currently only English is available", "Sorry, currently only English is available", "Sorry, currently only English is available", "Sorry, currently only English is available"],
+"main_menu": ["Это приветственное сообщение в главном меню", "", "", "", ""],
+"create_a_bot_stage_1_text": ["It will be your own BOTPANCAKE bot\nHelp\n1. Go to @BotFather and create tjere a new bot (/newbot).\nUse any username you want.\n2. Cope there your new bot's token (to access the HTTP API)\n3. Enter this token here", "", "", "", ""],
+"create_a_bot_stage_1_btn": ["Enter token", "", "", "", ""],
+"enter_token": ["Enter token of your bot:", "", "", "", ""],
+"help_text": ["If you have any problems, then you can contact our manager @TELEGRAM_HELP_ACCOUNT.\nThank you for using our bot!", "", "", "", ""],
+"token_success_edit": ["Bot token value changed successfully!", "", "", "", ""],
+"token_info": ["Current token of your bot is: ", "", "", "", ""],
+"Back": ["Back to Menu", "", "", "", ""],
+"Change": ["Change", "", "", "", ""],
+"Send_BNB_to_the_adress": ["Send BNB to the adress: 1234567890", "", "", "", "", ""],
+"I_sent_BNB": ["I've sent BNB", "", "", "", ""],
+"Enter_trans": ["Enter the transaction number:", "", "", "", ""],
+"Enter_wallet": ["Enter the wallet, from wich money were spent:", "", "", "", "", ""],
+"Tr_ok": ["Congratulations! Your transaction has been approved!", "", "", "", ""],
+"Tr_error": ["Transaction approving Error. Try again please.", "", "", "", ""]
+}
